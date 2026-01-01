@@ -56,7 +56,7 @@ div.libro{
 
 /* Para asegurar de que hayan 2 libros por fila */
 .div-div > *{
-  width: 100;
+  width: 40;
   padding: 1vw 1vh
 }
 
