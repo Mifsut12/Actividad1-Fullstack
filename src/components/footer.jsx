@@ -4,5 +4,4 @@ export const Footer= () => {
             <p className="footer-footer-text">Actividad-1 Fullstack UNIR</p>
         </footer>
     );
-
 }
