@@ -1,0 +1,105 @@
+#root {
+  background-color:aquamarine;
+}
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  color: black
+}
+
+nav{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 5vh;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  height: 10vh
+  
+}
+
+.footer{
+  color: yellow;
+  background-color: blue;
+  width: 100vw;
+  height: 5vh;
+}
+
+div.libro{
+  border: goldenrod solid thin;
+}
+
+
+.div-div{
+  border: solid thin black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vh;
+  width: 80vw;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+}
+
+
+
+/* Para asegurar de que hayan 2 libros por fila */
+.div-div > *{
+  width: 40%;
+  padding: 1vw 1vh
+}
+
+
+.articulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.articulo > *{
+  width: 100%;
+}
+
+
+
+.libroIndividual{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:none
+}
+
+button{
+  width: 200px;
+  margin: 3px;
+  padding:1vw 1vh;
+}
+
+
+p.mensaje{
+  height:60vh;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+
+.carrito, .checkout{
+  height:70vh
+}
