@@ -1,7 +1,8 @@
 export const Footer= () => {
     return (
         <footer className = "footer">
-            <p className="footer-footer-text">Creador: Ricardo Mifsut Castilla</p>
+            <p className="footer-footer-text">Actividad-1 Fullstack UNIR</p>
         </footer>
     );
+
 }
